@@ -1,0 +1,32 @@
+
+Commando			Explanation
+
+ls				list files and directories
+ls -a				list all files and directories
+mkdir name			make a directory called name
+cd name				change to the directory called name
+cd				change to home directory
+cd ~				change to home directory
+cd ..				change to parent directory
+pwd				display the path of the current directory
+
+cp file1 file2			copy file1 and call the copy file2
+mv file1 file2			rename file1 to file2
+mv file1 directory/file1	move file1 to specified directory
+rm file				remove file
+rmdir directory			remove directory
+cat file			display a file
+less file			display a file page by page
+head file			show the first few lines of a file
+tail file			show the last few lines of a file
+grep keyword file		display occurences of keyword in a file
+wc file				show the number of lines, words and characters of a file
+
+command > file			redirect standard output to file
+command >> file			append standard output to file
+command < file			replace standard input with contents of file
+command1 | command2		pipe standard output of command1 to command2
+cat file1 file2 > file0		concatenate file1 and file2 to file0
+sort				sort data by number and alphabetically
+who				display currently logged in users
+
